@@ -1,5 +1,5 @@
 #!/bin/bash
-
+set -e
 echo "=========================================="
 
 git config --global user.name "${GITHUB_ACTOR}"
